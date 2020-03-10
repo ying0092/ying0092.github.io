@@ -21,6 +21,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="SURFTREE 衝浪去">
 
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -46,7 +47,18 @@
 					<li><a href="#basic">初級訓練</a></li>
 					<li><a href="#advanced">進階訓練</a></li>
 					<li><a href="#FAQ">常見問題</a></li>
-					<li><a href="#elements" style="letter-spacing: 0;">Creative Army</a></li>
+					<li class="nav-item  dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+							style="letter-spacing: 0;padding: 0 0.8rem;">
+							Creative Army
+							<!-- <span class="down-caret"></span> -->
+						</a>
+						<div class="dropdown-menu" id="my-dropdown-menu">
+							<a href="#aboutArmy">品牌理念</a>
+							<a href="#longboards">長板</a>
+							<a href="#alternative">其它板型</a>
+						</div>
+					</li>
 					<li><a href="#elements">板再生</a></li>
 				</ul>
 			</nav>
@@ -218,6 +230,80 @@
 				<p>answer here!</p>
 				<hr>
 				<h4>其他問題歡迎聯絡我們<i class="fa fa-tree" aria-hidden="true"></i></h4>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/surf.tree" target="_blank"
+							class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<p align="right"><a href="#"><i class="fas fa-long-arrow-alt-left"></i> BACK</a></p>
+			</article>
+
+			<!-- Army -->
+			<article id="aboutArmy">
+				<h2 class="major">Creative Army</h2>
+				<h3>Surfboards by Josh Constable</h3>
+				<span class="image main"><img src="images/army-banner.jpg" alt="" /></span>
+				<p>I’m born and bred on the points of Noosa Heads, Australia. I’ve been surfing all my life and
+					competing professionally for the past 20 years. During this time I have been lucky enough to compete
+					around the world and do some amazing photo and vid trips to some of the best waves on our planet and
+					meet some incredible characters. I’ve also had a bit of success too… a World Title, 6 Australian
+					Titles, and some 51 career titles.
+				</p>
+				<p>
+					With this success I’ve been fortunate to work alongside and gain insight into some of the
+					best shapers and legends in the industry Bob McTavish, Bob Cooper, Donald Takyama, Timmy
+					Patterson, Greg Brown, Dave Boyd, Garth Day, Chris McCutchinson, …just to name a few.
+				</p>
+				<p>Creative Army is a kaleidoscope of all these experiences, waves and relationships and a voice
+					for my story through Creative Army’s designs, lines and shapes. Each board is handmade and
+					no two completely identical, making each surfboard a one of a kind piece of art that’s as
+					individual as you. I feel Creative Army reflects my true belief in keeping it pure and to
+					the highest standard. All my boards are inspired by traditional templates, but made with the
+					modern surfer in mind. With a contemporary fashion palette, they are made to make the
+					beginner surf better and the more advanced push themselves to their limit.
+				</p>
+				<p>I’ve had pleasure shaping, testing and perfecting these boards on the points at home in Noosa
+					with my family and friends. I hope they will inspire your surfing and get you out in the
+					line up and experience the feeling of stoke and trimming down the line.</p>
+				</p>
+				<p align="right"><i>Josh Constable</i></p>
+				<hr>
+				<h4>Boards</h4>
+				<ul class="actions">
+					<li><a href="#longboards" class="button small">LONG BOARDS</a></li>
+					<li><a href="#alternative" class="button small">ALTERNATIVE</a></li>
+				</ul>
+				<p align="right"><a href="#"><i class="fas fa-long-arrow-alt-left"></i> BACK</a></p>
+			</article>
+			<article id="longboards"">
+				<h2 class="major">長板 LONG BOARDS</h2>
+				<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+				<p>TODO...</p>
+				<hr>
+				<h4>了解更多</h4>
+				<ul class="actions">
+					<li><a href="#aboutArmy" class="button small">關於 Creative Army</a></li>
+					<li><a href="#alternative" class="button small">其它板型</a></li>
+				</ul>
+				<h4>訂購或其他問題歡迎聯絡我們<i class="fa fa-tree" aria-hidden="true"></i></h4>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/surf.tree" target="_blank"
+							class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<p align="right"><a href="#"><i class="fas fa-long-arrow-alt-left"></i> BACK</a></p>
+			</article>
+			<article id="alternative"">
+				<h2 class="major">其它板型 ALTERNATIVE</h2>
+				<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+				<p>TODO...</p>
+				<hr>
+				<h4>了解更多</h4>
+				<ul class="actions">
+					<li><a href="#aboutArmy" class="button small">關於 Creative Army</a></li>
+					<li><a href="#longboards" class="button small">長板</a></li>
+				</ul>
+				<h4>訂購或其他問題歡迎聯絡我們<i class="fa fa-tree" aria-hidden="true"></i></h4>
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 					<li><a href="https://www.instagram.com/surf.tree" target="_blank"
@@ -515,7 +601,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<li><a href="https://www.instagram.com/surf.tree" target="_blank" class="icon brands fa-instagram"><span
 							class="label">Instagram</span></a></li>
 			</ul>
-			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
+			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.
+			</p>
 		</footer>
 
 	</div>
@@ -529,6 +616,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

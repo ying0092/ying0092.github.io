@@ -1393,6 +1393,28 @@ input, select, textarea {
 			border-left: 0;
 		}
 
+		div#my-dropdown-menu {
+			border: none;
+			border-radius: unset;
+			width: 100%;
+			min-width: 7rem;
+			padding: 0;
+			margin: 0;
+		}
+
+		#my-dropdown-menu a:hover {
+			background-color: #ffffff !important;
+		}
+
+		@media screen and (max-width: 480px) {
+			div#my-dropdown-menu.show {
+				display: contents;
+			}
+			div#my-dropdown-menu a {
+				background-color: #eee;
+			}
+		}
+
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
