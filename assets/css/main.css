@@ -757,6 +757,15 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+	.theory .theory-title {
+		letter-spacing: 0.2rem;
+	}
+
+	.theory ul {
+		font-size: 90%;
+		margin-bottom: 10px;
+	}
+
 	dl {
 		margin: 0 0 2rem 0;
 	}
