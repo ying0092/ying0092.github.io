@@ -253,6 +253,7 @@ input, select, textarea {
 	}
 
 	blockquote {
+		font-size: 90%;
 		border-left: solid 4px #eee;
 		font-style: italic;
 		margin: 0 0 2rem 0;
@@ -634,6 +635,33 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
+
+/*Team Member*/
+.team-member img {
+	display: block;
+    margin: 0 auto;
+	width: 90%;
+}
+	@media screen and (max-width: 480px) {
+		.team-member img {
+			width: 60%;
+		}
+	}
+
+.team-member span {
+	position: relative;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+.team-member p {
+	margin: unset;
+}
+
+.team-member .row {
+	padding: 15px 0;
+}
 
 /* Image */
 
