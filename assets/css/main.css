@@ -663,6 +663,12 @@ input, select, textarea {
 	padding: 15px 0;
 }
 
+/*FAQ*/
+
+#FAQ p {
+	padding-left: 1.2rem;
+}
+
 /* Image */
 
 	.image {
