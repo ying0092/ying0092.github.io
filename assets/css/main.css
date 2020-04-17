@@ -1729,3 +1729,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		ol.traffic {
+			margin-bottom: 1.5em;
+		}
+
+		.note {
+			padding-left: 5px;
+		}
